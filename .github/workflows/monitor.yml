@@ -2,9 +2,10 @@ name: Europa-Park Verfügbarkeits-Check
 
 on:
   schedule:
-    # Alle 15 Minuten. GitHub Actions garantiert keine exakte Pünktlichkeit,
-    # bei hoher Last kann es auch mal 20-30 Minuten dauern.
-    - cron: "*/15 * * * *"
+    # Alle 5 Minuten - das ist das kleinste von GitHub Actions unterstützte
+    # Intervall. Auch damit garantiert GitHub keine exakte Pünktlichkeit,
+    # bei hoher Last kann es auch mal etwas länger dauern.
+    - cron: "*/5 * * * *"
   workflow_dispatch: {}  # erlaubt manuelles Auslösen über die GitHub-UI
 
 permissions:
