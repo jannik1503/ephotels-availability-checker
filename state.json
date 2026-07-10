@@ -9,6 +9,13 @@
         "Premium Präsidentensuite mit privater Sauna und Ruhebereich"
       ]
     },
+    "BR": {
+      "name": "Hotel Bell Rock",
+      "price": 444.0,
+      "room_types": [
+        "Komfortzimmer"
+      ]
+    },
     "CR": {
       "name": "Europa-Park Tipi Town",
       "price": 431.0,
