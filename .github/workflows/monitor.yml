@@ -1,0 +1,40 @@
+name: Europa-Park Verfügbarkeits-Check
+
+on:
+  schedule:
+    # Alle 15 Minuten. GitHub Actions garantiert keine exakte Pünktlichkeit,
+    # bei hoher Last kann es auch mal 20-30 Minuten dauern.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}  # erlaubt manuelles Auslösen über die GitHub-UI
+
+permissions:
+  contents: write  # nötig, damit der Workflow state.json committen darf
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten installieren
+        run: pip install requests
+
+      - name: Verfügbarkeit prüfen
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python check_availability.py
+
+      - name: Neuen Stand committen
+        run: |
+          git config user.name "europapark-monitor-bot"
+          git config user.email "actions@github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "Update availability state [skip ci]"
+          git push
