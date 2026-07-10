@@ -1,6 +1,6 @@
 # Europa-Park Hotel-Verfügbarkeits-Monitor
 
-Prüft alle 15 Minuten via GitHub Actions, ob eines der Europa-Park Hotels für
+Prüft alle 5 Minuten via GitHub Actions, ob eines der Europa-Park Hotels für
 **18.07.2026 → 19.07.2026, 2 Personen** wieder Zimmer frei hat, und schickt
 bei einer neuen Verfügbarkeit eine E-Mail.
 
