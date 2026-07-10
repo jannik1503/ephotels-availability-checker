@@ -33,8 +33,33 @@ STATE_FILE = Path(__file__).parent / "state.json"
 IGNORE_SEGMENT_CODES: set[str] = set()  # z.B. {"CP", "CN"} um Camping/Caravaning zu ignorieren
 
 
+RESERVATIONS_PAGE = "https://reservations.europapark.de/selecthotel/"
+
+
 def fetch_availability() -> dict:
-    """Fragt die Europa-Park API genau so ab, wie es der Browser tut."""
+    """
+    Fragt die Europa-Park API genau so ab, wie es der Browser tut.
+
+    Wichtig: Die Seite ist hinter einem Anti-Bot-System (F5/BIG-IP) geschützt,
+    das Session-Cookies erwartet. Deshalb besuchen wir zuerst die normale
+    Buchungsseite (wie ein Browser das tun würde), sammeln die dabei
+    gesetzten Cookies ein, und nutzen diese dann für den eigentlichen
+    API-Call.
+    """
+    session = requests.Session()
+    session.headers.update(
+        {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+            ),
+            "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+        }
+    )
+
+    # Schritt 1: normale Seite besuchen, um Session-/Anti-Bot-Cookies zu bekommen
+    session.get(RESERVATIONS_PAGE, timeout=30)
+
     payload = {
         "travelData": {
             "lang": "de",
@@ -71,11 +96,11 @@ def fetch_availability() -> dict:
         "Content-Type": "application/json;charset=UTF-8",
         "Accept": "application/json, text/plain, */*",
         "Origin": "https://reservations.europapark.de",
-        "Referer": "https://reservations.europapark.de/",
-        "User-Agent": "Mozilla/5.0 (compatible; EuropaParkAvailabilityMonitor/1.0)",
+        "Referer": RESERVATIONS_PAGE,
     }
 
-    resp = requests.post(API_URL, json=payload, headers=headers, timeout=30)
+    # Schritt 2: eigentlicher API-Call, jetzt MIT den gesammelten Cookies
+    resp = session.post(API_URL, json=payload, headers=headers, timeout=30)
     resp.raise_for_status()
     return resp.json()
 
@@ -153,6 +178,12 @@ def send_telegram_message(new_hotels: dict) -> None:
 def main() -> None:
     try:
         data = fetch_availability()
+    except requests.exceptions.HTTPError as exc:
+        print(f"Fehler beim Abrufen der API: {exc}", file=sys.stderr)
+        if exc.response is not None:
+            print(f"Status-Code: {exc.response.status_code}", file=sys.stderr)
+            print(f"Antwort (erste 500 Zeichen): {exc.response.text[:500]}", file=sys.stderr)
+        sys.exit(1)
     except Exception as exc:  # noqa: BLE001
         print(f"Fehler beim Abrufen der API: {exc}", file=sys.stderr)
         sys.exit(1)
