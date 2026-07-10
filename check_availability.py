@@ -58,7 +58,9 @@ def fetch_availability() -> dict:
     )
 
     # Schritt 1: normale Seite besuchen, um Session-/Anti-Bot-Cookies zu bekommen
-    session.get(RESERVATIONS_PAGE, timeout=30)
+    initial_resp = session.get(RESERVATIONS_PAGE, timeout=30)
+    print(f"[Debug] Erster Seitenaufruf: Status {initial_resp.status_code}", file=sys.stderr)
+    print(f"[Debug] Erhaltene Cookies: {list(session.cookies.keys())}", file=sys.stderr)
 
     payload = {
         "travelData": {
@@ -183,6 +185,7 @@ def main() -> None:
         if exc.response is not None:
             print(f"Status-Code: {exc.response.status_code}", file=sys.stderr)
             print(f"Antwort (erste 500 Zeichen): {exc.response.text[:500]}", file=sys.stderr)
+            print(f"Response-Headers: {dict(exc.response.headers)}", file=sys.stderr)
         sys.exit(1)
     except Exception as exc:  # noqa: BLE001
         print(f"Fehler beim Abrufen der API: {exc}", file=sys.stderr)
