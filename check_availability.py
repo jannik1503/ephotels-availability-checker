@@ -140,25 +140,9 @@ def save_state(available_hotels: dict) -> None:
     )
 
 
-def send_telegram_message(new_hotels: dict) -> None:
+def send_telegram_message(text: str) -> None:
     bot_token = os.environ["TELEGRAM_BOT_TOKEN"]
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
-
-    lines = [
-        f"🎉 *Neue Verfügbarkeit gefunden!*",
-        f"📅 {START_DATE} → {END_DATE}, {ADULTS} Personen",
-        "",
-    ]
-    for code, info in new_hotels.items():
-        lines.append(f"🏨 *{info['name']}*")
-        if info.get("price") is not None:
-            lines.append(f"   ab {info['price']:.2f} €")
-        if info.get("room_types"):
-            lines.append("   " + ", ".join(info["room_types"]))
-        lines.append("")
-    lines.append("👉 [Jetzt buchen](https://reservations.europapark.de/selecthotel/)")
-
-    text = "\n".join(lines)
 
     resp = requests.post(
         f"https://api.telegram.org/bot{bot_token}/sendMessage",
@@ -172,7 +156,32 @@ def send_telegram_message(new_hotels: dict) -> None:
     )
     resp.raise_for_status()
 
-    print(f"Telegram-Nachricht verschickt ({len(new_hotels)} neue Verfügbarkeit(en)).")
+
+def build_message(new_hotels: dict, changed_hotels: dict) -> str:
+    lines = []
+
+    if new_hotels:
+        lines.append(f"🎉 *Neue Verfügbarkeit gefunden!*")
+        lines.append(f"📅 {START_DATE} → {END_DATE}, {ADULTS} Personen")
+        lines.append("")
+        for code, info in new_hotels.items():
+            lines.append(f"🏨 *{info['name']}*")
+            if info.get("price") is not None:
+                lines.append(f"   ab {info['price']:.2f} €")
+            if info.get("room_types"):
+                lines.append("   " + ", ".join(info["room_types"]))
+            lines.append("")
+
+    if changed_hotels:
+        lines.append("💰 *Preisänderung bei bereits verfügbaren Hotels:*")
+        lines.append("")
+        for code, change in changed_hotels.items():
+            lines.append(f"🏨 *{change['name']}*")
+            lines.append(f"   {change['old_price']:.2f} € → {change['new_price']:.2f} €")
+            lines.append("")
+
+    lines.append("👉 [Jetzt buchen](https://reservations.europapark.de/selecthotel/)")
+    return "\n".join(lines)
 
 
 def main() -> None:
@@ -192,8 +201,22 @@ def main() -> None:
     current = extract_available_hotels(data)
     previous = load_previous_state().get("available_hotels", {})
 
-    # Neue Verfügbarkeiten = Hotels, die jetzt da sind, aber vorher nicht
+    # Neue Verfuegbarkeiten = Hotels, die jetzt da sind, aber vorher nicht
     new_hotels = {code: info for code, info in current.items() if code not in previous}
+
+    # Preisaenderungen = Hotels, die schon vorher UND jetzt verfuegbar sind,
+    # aber zu einem anderen Preis
+    changed_hotels = {}
+    for code, info in current.items():
+        if code in previous:
+            old_price = previous[code].get("price")
+            new_price = info.get("price")
+            if old_price is not None and new_price is not None and old_price != new_price:
+                changed_hotels[code] = {
+                    "name": info["name"],
+                    "old_price": old_price,
+                    "new_price": new_price,
+                }
 
     if current:
         print("Aktuell verfügbar:")
@@ -202,11 +225,11 @@ def main() -> None:
     else:
         print("Aktuell ist kein Hotel für diesen Zeitraum verfügbar.")
 
-    if new_hotels:
-        print(f"\n{len(new_hotels)} NEUE Verfügbarkeit(en) entdeckt!")
-        send_telegram_message(new_hotels)
+    if new_hotels or changed_hotels:
+        print(f"\n{len(new_hotels)} neue Verfügbarkeit(en), {len(changed_hotels)} Preisänderung(en) entdeckt!")
+        send_telegram_message(build_message(new_hotels, changed_hotels))
     else:
-        print("Keine neuen Verfügbarkeiten seit dem letzten Check.")
+        print("Keine Änderungen seit dem letzten Check.")
 
     save_state(current)
 
