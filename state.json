@@ -10,6 +10,13 @@
         "Präsidentensuite"
       ]
     },
+    "BR": {
+      "name": "Hotel Bell Rock",
+      "price": 649.0,
+      "room_types": [
+        "Themensuite"
+      ]
+    },
     "CR": {
       "name": "Europa-Park Tipi Town",
       "price": 431.0,
