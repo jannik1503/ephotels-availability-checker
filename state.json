@@ -9,13 +9,6 @@
         "Standardzimmer Plus (1 Schlafraum)",
         "Premium Präsidentensuite mit privater Sauna und Ruhebereich"
       ]
-    },
-    "CN": {
-      "name": "Europa-Park Caravaning",
-      "price": 66.0,
-      "room_types": [
-        "M - Stellplatz für Caravan & Wohnwagen"
-      ]
     }
   }
 }
