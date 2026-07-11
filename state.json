@@ -11,11 +11,11 @@
         "Präsidentensuite"
       ]
     },
-    "ROM": {
-      "name": "Hotel Colosseo",
-      "price": 314.0,
+    "CA": {
+      "name": "Hotel Castillo Alcazar",
+      "price": 430.0,
       "room_types": [
-        "Standardzimmer"
+        "kleines Deluxe Zimmer"
       ]
     },
     "CP": {
