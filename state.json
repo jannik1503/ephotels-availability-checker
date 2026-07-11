@@ -10,14 +10,6 @@
         "Präsidentensuite"
       ]
     },
-    "RS": {
-      "name": "Riverside Western Lodge",
-      "price": 270.0,
-      "room_types": [
-        "Standardzimmer",
-        "Standardzimmer Plus (1 Schlafraum)"
-      ]
-    },
     "CR": {
       "name": "Europa-Park Tipi Town",
       "price": 431.0,
