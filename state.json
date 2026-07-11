@@ -2,14 +2,20 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 366.0,
+      "price": 444.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
         "Komfortzimmer",
         "Premium Penthouse Suite mit privater Sauna",
-        "Standardzimmer Plus",
         "Premium Präsidentensuite mit privater Sauna und Ruhebereich",
         "Präsidentensuite"
+      ]
+    },
+    "ROM": {
+      "name": "Hotel Colosseo",
+      "price": 314.0,
+      "room_types": [
+        "Standardzimmer"
       ]
     },
     "CP": {
@@ -17,13 +23,6 @@
       "price": 43.0,
       "room_types": [
         "Zeltplatz für 1 Zelt (nicht für Fahrzeuge)"
-      ]
-    },
-    "CN": {
-      "name": "Europa-Park Caravaning",
-      "price": 60.0,
-      "room_types": [
-        "S - Stellplatz für Caravan & Wohnwagen"
       ]
     }
   }
