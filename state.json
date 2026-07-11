@@ -10,13 +10,6 @@
         "Premium Präsidentensuite mit privater Sauna und Ruhebereich"
       ]
     },
-    "BR": {
-      "name": "Hotel Bell Rock",
-      "price": 444.0,
-      "room_types": [
-        "Komfortzimmer"
-      ]
-    },
     "ROM": {
       "name": "Hotel Colosseo",
       "price": 366.0,
