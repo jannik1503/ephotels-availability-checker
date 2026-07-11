@@ -2,22 +2,14 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 314.0,
+      "price": 366.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
         "Komfortzimmer",
         "Premium Penthouse Suite mit privater Sauna",
-        "Standardzimmer",
         "Standardzimmer Plus",
         "Premium Präsidentensuite mit privater Sauna und Ruhebereich",
         "Präsidentensuite"
-      ]
-    },
-    "RS": {
-      "name": "Riverside Western Lodge",
-      "price": 296.0,
-      "room_types": [
-        "Standardzimmer Plus"
       ]
     },
     "CP": {
