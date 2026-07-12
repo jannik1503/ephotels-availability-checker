@@ -18,13 +18,6 @@
         "Standardzimmer (1 Schlafraum)"
       ]
     },
-    "ROM": {
-      "name": "Hotel Colosseo",
-      "price": 366.0,
-      "room_types": [
-        "Standardzimmer Plus"
-      ]
-    },
     "CA": {
       "name": "Hotel Castillo Alcazar",
       "price": 430.0,
@@ -39,14 +32,6 @@
       "room_types": [
         "Deluxe Zimmer",
         "Themensuite"
-      ]
-    },
-    "RS": {
-      "name": "Riverside Western Lodge",
-      "price": 361.0,
-      "room_types": [
-        "Komfort-Zimmer Plus",
-        "Standardzimmer (1 Schlafraum)"
       ]
     },
     "CP": {
