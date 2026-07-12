@@ -8,6 +8,13 @@
         "Premium Penthouse Suite mit privater Sauna"
       ]
     },
+    "EL": {
+      "name": "Hotel El Andaluz",
+      "price": 400.0,
+      "room_types": [
+        "Komfortzimmer"
+      ]
+    },
     "CN": {
       "name": "Europa-Park Caravaning",
       "price": 60.0,
