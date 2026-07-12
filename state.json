@@ -16,13 +16,6 @@
         "Standardzimmer (1 Schlafraum)"
       ]
     },
-    "CV": {
-      "name": "Hotel Santa Isabel",
-      "price": 314.0,
-      "room_types": [
-        "Standardzimmer"
-      ]
-    },
     "EL": {
       "name": "Hotel El Andaluz",
       "price": 605.0,
