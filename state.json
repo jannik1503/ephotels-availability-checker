@@ -8,14 +8,6 @@
         "Premium Penthouse Suite mit privater Sauna"
       ]
     },
-    "BR": {
-      "name": "Hotel Bell Rock",
-      "price": 474.0,
-      "room_types": [
-        "Deluxe Zimmer",
-        "Standardzimmer (1 Schlafraum)"
-      ]
-    },
     "CA": {
       "name": "Hotel Castillo Alcazar",
       "price": 605.0,
@@ -34,10 +26,9 @@
     },
     "RS": {
       "name": "Riverside Western Lodge",
-      "price": 335.0,
+      "price": 361.0,
       "room_types": [
-        "Komfort-Zimmer",
-        "Standardzimmer (1 Schlafraum)"
+        "Komfort-Zimmer Plus"
       ]
     }
   }
