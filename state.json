@@ -19,10 +19,9 @@
     },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 314.0,
+      "price": 366.0,
       "room_types": [
         "Standardzimmer Plus",
-        "Standardzimmer",
         "Themensuite"
       ]
     },
@@ -43,11 +42,10 @@
     },
     "RS": {
       "name": "Riverside Western Lodge",
-      "price": 296.0,
+      "price": 335.0,
       "room_types": [
         "Komfort-Zimmer",
         "Komfort-Zimmer Plus",
-        "Standardzimmer Plus",
         "Standardzimmer (1 Schlafraum)"
       ]
     },
