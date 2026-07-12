@@ -7,6 +7,14 @@
         "Premium Penthouse Suite mit privatem Dampfbad",
         "Premium Penthouse Suite mit privater Sauna"
       ]
+    },
+    "BR": {
+      "name": "Hotel Bell Rock",
+      "price": 649.0,
+      "room_types": [
+        "Standardzimmer (1 Schlafraum)",
+        "Themensuite"
+      ]
     }
   }
 }
