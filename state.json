@@ -8,6 +8,57 @@
         "Premium Penthouse Suite mit privater Sauna"
       ]
     },
+    "BR": {
+      "name": "Hotel Bell Rock",
+      "price": 474.0,
+      "room_types": [
+        "Deluxe Zimmer",
+        "Standardzimmer (1 Schlafraum)"
+      ]
+    },
+    "ROM": {
+      "name": "Hotel Colosseo",
+      "price": 314.0,
+      "room_types": [
+        "Standardzimmer Plus",
+        "Standardzimmer",
+        "Themensuite"
+      ]
+    },
+    "CV": {
+      "name": "Hotel Santa Isabel",
+      "price": 314.0,
+      "room_types": [
+        "Standardzimmer"
+      ]
+    },
+    "CA": {
+      "name": "Hotel Castillo Alcazar",
+      "price": 270.0,
+      "room_types": [
+        "Standardzimmer",
+        "Standardzimmer Plus (1 Schlafraum)"
+      ]
+    },
+    "EL": {
+      "name": "Hotel El Andaluz",
+      "price": 270.0,
+      "room_types": [
+        "Standardzimmer",
+        "Deluxe Zimmer",
+        "Themensuite"
+      ]
+    },
+    "RS": {
+      "name": "Riverside Western Lodge",
+      "price": 296.0,
+      "room_types": [
+        "Komfort-Zimmer",
+        "Komfort-Zimmer Plus",
+        "Standardzimmer Plus",
+        "Standardzimmer (1 Schlafraum)"
+      ]
+    },
     "CP": {
       "name": "Europa-Park Camping",
       "price": 43.0,
