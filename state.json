@@ -2,12 +2,11 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 314.0,
+      "price": 444.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
         "Komfortzimmer",
-        "Premium Penthouse Suite mit privater Sauna",
-        "Standardzimmer"
+        "Premium Penthouse Suite mit privater Sauna"
       ]
     },
     "BR": {
@@ -16,14 +15,6 @@
       "room_types": [
         "Deluxe Zimmer",
         "Standardzimmer (1 Schlafraum)"
-      ]
-    },
-    "CA": {
-      "name": "Hotel Castillo Alcazar",
-      "price": 430.0,
-      "room_types": [
-        "kleines Deluxe Zimmer",
-        "Standardzimmer Plus (1 Schlafraum)"
       ]
     },
     "EL": {
