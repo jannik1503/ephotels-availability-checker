@@ -8,13 +8,6 @@
         "Premium Penthouse Suite mit privater Sauna",
         "Standardzimmer (1 Schlafraum)"
       ]
-    },
-    "EL": {
-      "name": "Hotel El Andaluz",
-      "price": 400.0,
-      "room_types": [
-        "Komfortzimmer"
-      ]
     }
   }
 }
