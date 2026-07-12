@@ -2,11 +2,12 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 444.0,
+      "price": 314.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
         "Komfortzimmer",
-        "Premium Penthouse Suite mit privater Sauna"
+        "Premium Penthouse Suite mit privater Sauna",
+        "Standardzimmer"
       ]
     },
     "BR": {
@@ -23,13 +24,6 @@
       "room_types": [
         "Standardzimmer Plus",
         "Themensuite"
-      ]
-    },
-    "CV": {
-      "name": "Hotel Santa Isabel",
-      "price": 314.0,
-      "room_types": [
-        "Standardzimmer"
       ]
     },
     "EL": {
