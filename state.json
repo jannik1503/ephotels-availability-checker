@@ -16,6 +16,13 @@
         "Standardzimmer (1 Schlafraum)"
       ]
     },
+    "ROM": {
+      "name": "Hotel Colosseo",
+      "price": 366.0,
+      "room_types": [
+        "Standardzimmer Plus"
+      ]
+    },
     "EL": {
       "name": "Hotel El Andaluz",
       "price": 605.0,
