@@ -2,10 +2,11 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 1449.0,
+      "price": 314.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
-        "Premium Penthouse Suite mit privater Sauna"
+        "Premium Penthouse Suite mit privater Sauna",
+        "Standardzimmer"
       ]
     },
     "BR": {
@@ -14,13 +15,6 @@
       "room_types": [
         "Deluxe Zimmer",
         "Standardzimmer (1 Schlafraum)"
-      ]
-    },
-    "ROM": {
-      "name": "Hotel Colosseo",
-      "price": 366.0,
-      "room_types": [
-        "Standardzimmer Plus"
       ]
     },
     "EL": {
