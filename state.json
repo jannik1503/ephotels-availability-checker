@@ -2,11 +2,17 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 366.0,
+      "price": 1449.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
-        "Premium Penthouse Suite mit privater Sauna",
-        "Standardzimmer Plus"
+        "Premium Penthouse Suite mit privater Sauna"
+      ]
+    },
+    "EL": {
+      "name": "Hotel El Andaluz",
+      "price": 605.0,
+      "room_types": [
+        "Themensuite"
       ]
     }
   }
