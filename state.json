@@ -2,11 +2,17 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 314.0,
+      "price": 1449.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
-        "Premium Penthouse Suite mit privater Sauna",
-        "Standardzimmer"
+        "Premium Penthouse Suite mit privater Sauna"
+      ]
+    },
+    "CP": {
+      "name": "Europa-Park Camping",
+      "price": 43.0,
+      "room_types": [
+        "Zeltplatz für 1 Zelt (nicht für Fahrzeuge)"
       ]
     }
   }
