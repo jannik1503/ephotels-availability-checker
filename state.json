@@ -16,14 +16,6 @@
         "Penthouse Suite",
         "Präsidentensuite"
       ]
-    },
-    "ROM": {
-      "name": "Hotel Colosseo",
-      "price": 649.0,
-      "room_types": [
-        "Standardzimmer Plus (Schlafraum mit 1 Doppelbett, 1 Etagenbett und Schlafcouch)",
-        "Themensuite"
-      ]
     }
   }
 }
