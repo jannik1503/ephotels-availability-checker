@@ -30,13 +30,6 @@
       "room_types": [
         "Sagrado Suite"
       ]
-    },
-    "EL": {
-      "name": "Hotel El Andaluz",
-      "price": 270.0,
-      "room_types": [
-        "Standardzimmer"
-      ]
     }
   }
 }
