@@ -37,6 +37,7 @@
       "name": "Hotel Castillo Alcazar",
       "price": 605.0,
       "room_types": [
+        "Komfortzimmer",
         "Themensuite"
       ]
     },
