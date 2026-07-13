@@ -23,6 +23,13 @@
       "room_types": [
         "Sagrado Suite"
       ]
+    },
+    "CN": {
+      "name": "Europa-Park Caravaning",
+      "price": 60.0,
+      "room_types": [
+        "S - Stellplatz für Caravan & Wohnwagen"
+      ]
     }
   }
 }
