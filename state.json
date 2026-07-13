@@ -19,8 +19,9 @@
     },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 649.0,
+      "price": 366.0,
       "room_types": [
+        "Standardzimmer Plus",
         "Deluxe Zimmer",
         "Themensuite"
       ]
