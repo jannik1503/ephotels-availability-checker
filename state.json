@@ -30,6 +30,13 @@
       "room_types": [
         "Sagrado Suite"
       ]
+    },
+    "CR": {
+      "name": "Europa-Park Tipi Town",
+      "price": 431.0,
+      "room_types": [
+        "12er Tipizelt"
+      ]
     }
   }
 }
