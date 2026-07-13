@@ -5,14 +5,14 @@
       "price": 1449.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
-        "Premium Penthouse Suite mit privater Sauna"
+        "Premium Penthouse Suite mit privater Sauna",
+        "Deluxe Zimmer"
       ]
     },
     "BR": {
       "name": "Hotel Bell Rock",
-      "price": 474.0,
+      "price": 769.0,
       "room_types": [
-        "Deluxe Zimmer",
         "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm",
         "Penthouse Suite"
       ]
@@ -22,6 +22,27 @@
       "price": 649.0,
       "room_types": [
         "Deluxe Zimmer",
+        "Themensuite"
+      ]
+    },
+    "CV": {
+      "name": "Hotel Santa Isabel",
+      "price": 769.0,
+      "room_types": [
+        "Sagrado Suite"
+      ]
+    },
+    "CA": {
+      "name": "Hotel Castillo Alcazar",
+      "price": 270.0,
+      "room_types": [
+        "Standardzimmer"
+      ]
+    },
+    "EL": {
+      "name": "Hotel El Andaluz",
+      "price": 605.0,
+      "room_types": [
         "Themensuite"
       ]
     }
