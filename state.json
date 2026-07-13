@@ -10,9 +10,8 @@
     },
     "BR": {
       "name": "Hotel Bell Rock",
-      "price": 314.0,
+      "price": 649.0,
       "room_types": [
-        "Standardzimmer",
         "Penthouse Suite",
         "Themensuite"
       ]
