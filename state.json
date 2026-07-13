@@ -6,7 +6,8 @@
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
         "Komfortzimmer",
-        "Premium Penthouse Suite mit privater Sauna"
+        "Premium Penthouse Suite mit privater Sauna",
+        "Standardzimmer (1 Schlafraum)"
       ]
     },
     "BR": {
@@ -19,9 +20,8 @@
     },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 366.0,
+      "price": 649.0,
       "room_types": [
-        "Standardzimmer Plus",
         "Deluxe Zimmer",
         "Themensuite"
       ]
