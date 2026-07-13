@@ -2,9 +2,10 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 1449.0,
+      "price": 444.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
+        "Komfortzimmer",
         "Premium Penthouse Suite mit privater Sauna"
       ]
     },
@@ -19,10 +20,8 @@
     },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 314.0,
+      "price": 649.0,
       "room_types": [
-        "Standardzimmer",
-        "Standardzimmer Plus",
         "Deluxe Zimmer",
         "Themensuite"
       ]
@@ -36,8 +35,9 @@
     },
     "CR": {
       "name": "Europa-Park Tipi Town",
-      "price": 431.0,
+      "price": 269.0,
       "room_types": [
+        "Komfort Planwagen aus Holz",
         "12er Tipizelt"
       ]
     }
