@@ -17,13 +17,6 @@
         "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm"
       ]
     },
-    "ROM": {
-      "name": "Hotel Colosseo",
-      "price": 366.0,
-      "room_types": [
-        "Standardzimmer Plus"
-      ]
-    },
     "CR": {
       "name": "Europa-Park Tipi Town",
       "price": 431.0,
