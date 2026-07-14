@@ -11,8 +11,9 @@
     },
     "CR": {
       "name": "Europa-Park Tipi Town",
-      "price": 431.0,
+      "price": 181.0,
       "room_types": [
+        "Planwagen ",
         "12er Tipizelt"
       ]
     }
