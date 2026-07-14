@@ -11,11 +11,10 @@
     },
     "BR": {
       "name": "Hotel Bell Rock",
-      "price": 769.0,
+      "price": 859.0,
       "room_types": [
         "Standardzimmer (1 Schlafraum)",
-        "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm",
-        "Penthouse Suite"
+        "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm"
       ]
     },
     "CR": {
