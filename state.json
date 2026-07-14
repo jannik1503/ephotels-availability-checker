@@ -10,18 +10,12 @@
     },
     "BR": {
       "name": "Hotel Bell Rock",
-      "price": 769.0,
+      "price": 474.0,
       "room_types": [
+        "Deluxe Zimmer",
         "Standardzimmer (1 Schlafraum)",
         "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm",
         "Penthouse Suite"
-      ]
-    },
-    "CV": {
-      "name": "Hotel Santa Isabel",
-      "price": 769.0,
-      "room_types": [
-        "Sagrado Suite"
       ]
     },
     "CR": {
