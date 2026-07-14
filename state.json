@@ -5,15 +5,16 @@
       "price": 1449.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
-        "Premium Penthouse Suite mit privater Sauna",
-        "Standardzimmer (1 Schlafraum)"
+        "Premium Penthouse Suite mit privater Sauna"
       ]
     },
     "CR": {
       "name": "Europa-Park Tipi Town",
-      "price": 431.0,
+      "price": 224.0,
       "room_types": [
-        "12er Tipizelt"
+        "Western House",
+        "12er Tipizelt",
+        "6er Tipizelt"
       ]
     }
   }
