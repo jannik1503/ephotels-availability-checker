@@ -2,8 +2,9 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 1449.0,
+      "price": 444.0,
       "room_types": [
+        "Komfortzimmer",
         "Premium Penthouse Suite mit privater Sauna"
       ]
     },
