@@ -12,6 +12,7 @@
       "name": "Hotel Bell Rock",
       "price": 769.0,
       "room_types": [
+        "Standardzimmer (1 Schlafraum)",
         "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm",
         "Penthouse Suite"
       ]
@@ -31,11 +32,17 @@
         "Sagrado Suite"
       ]
     },
+    "RS": {
+      "name": "Riverside Western Lodge",
+      "price": 270.0,
+      "room_types": [
+        "Standardzimmer"
+      ]
+    },
     "CR": {
       "name": "Europa-Park Tipi Town",
-      "price": 299.0,
+      "price": 431.0,
       "room_types": [
-        "Kleines Western House\r\n",
         "12er Tipizelt"
       ]
     }
