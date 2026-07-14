@@ -32,6 +32,13 @@
         "Sagrado Suite"
       ]
     },
+    "RS": {
+      "name": "Riverside Western Lodge",
+      "price": 361.0,
+      "room_types": [
+        "Komfort-Zimmer Plus"
+      ]
+    },
     "CR": {
       "name": "Europa-Park Tipi Town",
       "price": 431.0,
