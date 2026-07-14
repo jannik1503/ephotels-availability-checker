@@ -11,10 +11,16 @@
     },
     "CR": {
       "name": "Europa-Park Tipi Town",
-      "price": 181.0,
+      "price": 431.0,
       "room_types": [
-        "Planwagen ",
         "12er Tipizelt"
+      ]
+    },
+    "CN": {
+      "name": "Europa-Park Caravaning",
+      "price": 60.0,
+      "room_types": [
+        "S - Stellplatz für Caravan & Wohnwagen"
       ]
     }
   }
