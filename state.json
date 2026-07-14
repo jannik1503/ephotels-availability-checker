@@ -10,19 +10,11 @@
     },
     "BR": {
       "name": "Hotel Bell Rock",
-      "price": 444.0,
+      "price": 769.0,
       "room_types": [
-        "Komfortzimmer",
         "Standardzimmer (1 Schlafraum)",
         "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm",
         "Penthouse Suite"
-      ]
-    },
-    "ROM": {
-      "name": "Hotel Colosseo",
-      "price": 649.0,
-      "room_types": [
-        "Themensuite"
       ]
     },
     "CV": {
@@ -30,13 +22,6 @@
       "price": 769.0,
       "room_types": [
         "Sagrado Suite"
-      ]
-    },
-    "RS": {
-      "name": "Riverside Western Lodge",
-      "price": 361.0,
-      "room_types": [
-        "Komfort-Zimmer Plus"
       ]
     },
     "CR": {
