@@ -2,9 +2,10 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 1449.0,
+      "price": 314.0,
       "room_types": [
-        "Premium Penthouse Suite mit privater Sauna"
+        "Premium Penthouse Suite mit privater Sauna",
+        "Standardzimmer"
       ]
     },
     "BR": {
@@ -16,11 +17,17 @@
     },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 366.0,
+      "price": 1449.0,
       "room_types": [
-        "Standardzimmer Plus",
         "\"Caesare & Cleopatra\" Suite im Kolosseumbogen",
         "VIP-Präsidentensuite Roma - Bella Vista"
+      ]
+    },
+    "RS": {
+      "name": "Riverside Western Lodge",
+      "price": 335.0,
+      "room_types": [
+        "Komfort-Zimmer"
       ]
     }
   }
