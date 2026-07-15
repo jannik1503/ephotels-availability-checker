@@ -17,9 +17,8 @@
     },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 366.0,
+      "price": 1449.0,
       "room_types": [
-        "Standardzimmer Plus",
         "\"Caesare & Cleopatra\" Suite im Kolosseumbogen",
         "VIP-Präsidentensuite Roma - Bella Vista"
       ]
@@ -29,13 +28,6 @@
       "price": 605.0,
       "room_types": [
         "Themensuite"
-      ]
-    },
-    "RS": {
-      "name": "Riverside Western Lodge",
-      "price": 335.0,
-      "room_types": [
-        "Komfort-Zimmer"
       ]
     }
   }
