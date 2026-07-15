@@ -6,6 +6,13 @@
       "room_types": [
         "Premium Penthouse Suite mit privater Sauna"
       ]
+    },
+    "CN": {
+      "name": "Europa-Park Caravaning",
+      "price": 60.0,
+      "room_types": [
+        "S - Stellplatz für Caravan & Wohnwagen"
+      ]
     }
   }
 }
