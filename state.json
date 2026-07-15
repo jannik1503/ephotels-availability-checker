@@ -32,14 +32,6 @@
         "Standardzimmer mit zwei separaten Einzelbetten",
         "Themensuite"
       ]
-    },
-    "RS": {
-      "name": "Riverside Western Lodge",
-      "price": 335.0,
-      "room_types": [
-        "Komfort-Zimmer",
-        "Standardzimmer (1 Schlafraum)"
-      ]
     }
   }
 }
