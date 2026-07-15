@@ -10,8 +10,9 @@
     },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 3040.0,
+      "price": 1449.0,
       "room_types": [
+        "\"Caesare & Cleopatra\" Suite im Kolosseumbogen",
         "VIP-Präsidentensuite Roma - Bella Vista"
       ]
     }
