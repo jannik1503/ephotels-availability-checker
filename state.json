@@ -7,11 +7,38 @@
         "Premium Penthouse Suite mit privater Sauna"
       ]
     },
+    "BR": {
+      "name": "Hotel Bell Rock",
+      "price": 769.0,
+      "room_types": [
+        "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm",
+        "Präsidentensuite"
+      ]
+    },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 3040.0,
+      "price": 366.0,
       "room_types": [
+        "Standardzimmer Plus",
+        "Standardzimmer Plus (Schlafraum mit 1 Doppelbett, 1 Etagenbett und Schlafcouch)",
+        "\"Caesare & Cleopatra\" Suite im Kolosseumbogen",
         "VIP-Präsidentensuite Roma - Bella Vista"
+      ]
+    },
+    "EL": {
+      "name": "Hotel El Andaluz",
+      "price": 605.0,
+      "room_types": [
+        "Standardzimmer mit zwei separaten Einzelbetten",
+        "Themensuite"
+      ]
+    },
+    "RS": {
+      "name": "Riverside Western Lodge",
+      "price": 335.0,
+      "room_types": [
+        "Komfort-Zimmer",
+        "Standardzimmer (1 Schlafraum)"
       ]
     }
   }
