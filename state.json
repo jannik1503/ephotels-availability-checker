@@ -15,6 +15,13 @@
         "\"Caesare & Cleopatra\" Suite im Kolosseumbogen",
         "VIP-Präsidentensuite Roma - Bella Vista"
       ]
+    },
+    "EL": {
+      "name": "Hotel El Andaluz",
+      "price": 605.0,
+      "room_types": [
+        "Themensuite"
+      ]
     }
   }
 }
