@@ -16,10 +16,25 @@
     },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 1449.0,
+      "price": 649.0,
       "room_types": [
         "\"Caesare & Cleopatra\" Suite im Kolosseumbogen",
+        "Themensuite",
         "VIP-Präsidentensuite Roma - Bella Vista"
+      ]
+    },
+    "RS": {
+      "name": "Riverside Western Lodge",
+      "price": 270.0,
+      "room_types": [
+        "Standardzimmer"
+      ]
+    },
+    "CN": {
+      "name": "Europa-Park Caravaning",
+      "price": 72.0,
+      "room_types": [
+        "L - Stellplatz für Caravan & Wohnwagen"
       ]
     }
   }
