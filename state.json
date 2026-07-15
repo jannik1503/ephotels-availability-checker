@@ -9,8 +9,9 @@
     },
     "BR": {
       "name": "Hotel Bell Rock",
-      "price": 859.0,
+      "price": 444.0,
       "room_types": [
+        "Komfortzimmer",
         "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm"
       ]
     },
@@ -20,20 +21,6 @@
       "room_types": [
         "Themensuite",
         "VIP-Präsidentensuite Roma - Bella Vista"
-      ]
-    },
-    "RS": {
-      "name": "Riverside Western Lodge",
-      "price": 270.0,
-      "room_types": [
-        "Standardzimmer"
-      ]
-    },
-    "CN": {
-      "name": "Europa-Park Caravaning",
-      "price": 72.0,
-      "room_types": [
-        "L - Stellplatz für Caravan & Wohnwagen"
       ]
     }
   }
