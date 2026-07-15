@@ -21,6 +21,13 @@
         "\"Caesare & Cleopatra\" Suite im Kolosseumbogen",
         "VIP-Präsidentensuite Roma - Bella Vista"
       ]
+    },
+    "CP": {
+      "name": "Europa-Park Camping",
+      "price": 43.0,
+      "room_types": [
+        "Zeltplatz für 1 Zelt (nicht für Fahrzeuge)"
+      ]
     }
   }
 }
