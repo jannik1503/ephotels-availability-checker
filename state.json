@@ -28,13 +28,6 @@
       "room_types": [
         "Themensuite"
       ]
-    },
-    "RS": {
-      "name": "Riverside Western Lodge",
-      "price": 335.0,
-      "room_types": [
-        "Komfort-Zimmer"
-      ]
     }
   }
 }
