@@ -7,14 +7,6 @@
         "Premium Penthouse Suite mit privater Sauna"
       ]
     },
-    "BR": {
-      "name": "Hotel Bell Rock",
-      "price": 444.0,
-      "room_types": [
-        "Komfortzimmer",
-        "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm"
-      ]
-    },
     "ROM": {
       "name": "Hotel Colosseo",
       "price": 3040.0,
