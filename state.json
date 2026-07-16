@@ -20,6 +20,13 @@
       "room_types": [
         "VIP-Präsidentensuite Roma - Bella Vista"
       ]
+    },
+    "CN": {
+      "name": "Europa-Park Caravaning",
+      "price": 78.0,
+      "room_types": [
+        "XL - Stellplatz für Caravan & Wohnwagen"
+      ]
     }
   }
 }
