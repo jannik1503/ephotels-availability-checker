@@ -2,9 +2,10 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 1449.0,
+      "price": 769.0,
       "room_types": [
-        "Premium Penthouse Suite mit privater Sauna"
+        "Premium Penthouse Suite mit privater Sauna",
+        "Präsidentensuite"
       ]
     },
     "ROM": {
@@ -12,13 +13,6 @@
       "price": 3040.0,
       "room_types": [
         "VIP-Präsidentensuite Roma - Bella Vista"
-      ]
-    },
-    "CN": {
-      "name": "Europa-Park Caravaning",
-      "price": 60.0,
-      "room_types": [
-        "S - Stellplatz für Caravan & Wohnwagen"
       ]
     }
   }
