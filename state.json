@@ -16,8 +16,10 @@
     },
     "ROM": {
       "name": "Hotel Colosseo",
-      "price": 3040.0,
+      "price": 314.0,
       "room_types": [
+        "Standardzimmer Plus",
+        "Behindertengerechtes Zimmer",
         "VIP-Präsidentensuite Roma - Bella Vista"
       ]
     },
