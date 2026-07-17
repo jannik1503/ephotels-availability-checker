@@ -1,5 +1,20 @@
 {
   "available_hotels": {
+    "KS": {
+      "name": "Hotel Krønasår",
+      "price": 1449.0,
+      "room_types": [
+        "Premium Penthouse Suite mit privater Sauna",
+        "Standardzimmer Plus (1 Schlafraum)"
+      ]
+    },
+    "BR": {
+      "name": "Hotel Bell Rock",
+      "price": 859.0,
+      "room_types": [
+        "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm"
+      ]
+    },
     "ROM": {
       "name": "Hotel Colosseo",
       "price": 3040.0,
