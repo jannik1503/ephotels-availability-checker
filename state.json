@@ -1,3 +1,11 @@
 {
-  "available_hotels": {}
+  "available_hotels": {
+    "CR": {
+      "name": "Europa-Park Tipi Town",
+      "price": 299.0,
+      "room_types": [
+        "Kleines Western House\r\n"
+      ]
+    }
+  }
 }
