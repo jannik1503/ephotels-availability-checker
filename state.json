@@ -1,3 +1,18 @@
 {
-  "available_hotels": {}
+  "available_hotels": {
+    "BR": {
+      "name": "Hotel Bell Rock",
+      "price": 859.0,
+      "room_types": [
+        "\"Ahoi Heimat\" Suite - by Stefan Strumbel im Leuchtturm"
+      ]
+    },
+    "CR": {
+      "name": "Europa-Park Tipi Town",
+      "price": 299.0,
+      "room_types": [
+        "Kleines Western House\r\n"
+      ]
+    }
+  }
 }
