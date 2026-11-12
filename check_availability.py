@@ -19,8 +19,8 @@ import requests
 # ---------------------------------------------------------------------------
 # KONFIGURATION - hier ggf. Datum/Personenzahl anpassen
 # ---------------------------------------------------------------------------
-START_DATE = "2026-07-18"
-END_DATE = "2026-07-19"
+START_DATE = "2027-07-10"
+END_DATE = "2027-07-11"
 ADULTS = 2
 
 API_URL = "https://hotelapi.europapark.de/api/hotelavailabilities"
