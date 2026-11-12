@@ -1,3 +1,28 @@
 {
-  "available_hotels": {}
+  "available_hotels": {
+    "KS": {
+      "name": "Hotel Krønasår",
+      "price": 809.0,
+      "room_types": [
+        "Premium Penthouse Suite mit privatem Dampfbad",
+        "Premium Penthouse Suite mit privater Sauna",
+        "Komfortzimmer (1 Schlafraum)",
+        "Standardzimmer (1 Schlafraum)",
+        "Standardzimmer Plus (1 Schlafraum)",
+        "Premium Präsidentensuite",
+        "Premium Präsidentensuite mit privater Sauna und Ruhebereich",
+        "Präsidentensuite",
+        "Royal Deluxe Suite ",
+        "Royal Suite"
+      ]
+    },
+    "CR": {
+      "name": "Europa-Park Tipi Town",
+      "price": 317.0,
+      "room_types": [
+        "Kleines Western House\r\n",
+        "12er Tipizelt"
+      ]
+    }
+  }
 }
