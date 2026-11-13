@@ -18,9 +18,8 @@
     },
     "CR": {
       "name": "Europa-Park Tipi Town",
-      "price": 317.0,
+      "price": 457.0,
       "room_types": [
-        "Kleines Western House\r\n",
         "12er Tipizelt"
       ]
     }
