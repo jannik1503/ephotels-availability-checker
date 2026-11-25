@@ -2,16 +2,14 @@
   "available_hotels": {
     "KS": {
       "name": "Hotel Krønasår",
-      "price": 1234.0,
+      "price": 1349.0,
       "room_types": [
         "Premium Penthouse Suite mit privatem Dampfbad",
         "Premium Penthouse Suite mit privater Sauna",
         "Komfortzimmer (1 Schlafraum)",
         "Standardzimmer (1 Schlafraum)",
         "Standardzimmer Plus (1 Schlafraum)",
-        "Premium Präsidentensuite mit privater Sauna und Ruhebereich",
-        "Royal Deluxe Suite ",
-        "Royal Suite"
+        "Premium Präsidentensuite mit privater Sauna und Ruhebereich"
       ]
     },
     "CR": {
